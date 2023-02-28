@@ -1,0 +1,25 @@
+.login-page {
+    background-color: #e0e0e0;
+    height: 100vh;
+    .content-wrapper {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .left-content {
+            height: 80%;
+            width: 90%;
+            display: flex;
+            background-color: #fff;
+            img {
+                width: 60%;
+                height: 100%;
+                border-radius: 0px 15% 15% 0px;
+            }
+        }
+        .right-content {
+            width: 40%;
+            margin: 0% 2%;
+        }
+    }
+}

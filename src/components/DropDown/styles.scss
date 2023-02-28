@@ -1,0 +1,12 @@
+.input-with-dropdown {
+  height: 40px;
+  .input-wrap {
+    border-radius: 3px;    
+    select {
+      padding: 5px;
+      min-width: 150px;
+      height: 40px;
+      border: 1px solid #dfdfdf;
+    }
+  }
+}

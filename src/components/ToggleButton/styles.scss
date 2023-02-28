@@ -1,0 +1,41 @@
+.toggle-container {
+    line-height: 2;
+    width: 100%;
+    .txt-label {
+        font-size: 14px;
+        font-family: "Lato";
+        margin-right: 15px;
+        color: #898989;
+        width: 50%;
+        text-align: left;
+    }
+    label {
+        text-align: start;
+        margin: 0 10px;
+        font-size: 14px;
+        font-weight: 500;
+        font-family: "Roboto";
+    }
+    .toggle-button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .active-false-label {
+            color: rgb(191 180 180);
+            font-weight: 700;
+        }
+        .inActive-false-label {
+            color: #707070;
+            font-weight: 700;
+        }
+        .active-true-label {
+            color: #ff8e33;
+            font-weight: 700;
+        }
+        .inActive-true-label {
+            color: #bfb4b4;
+            font-weight: 700;
+        }
+    }
+}

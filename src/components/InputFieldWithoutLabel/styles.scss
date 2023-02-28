@@ -1,0 +1,33 @@
+.input-label-wrapper {
+    margin-bottom: 20px;
+    height: 40px;
+    .input-img-wrapper {
+        width: 350px;
+        border-bottom: 1px solid #cfcccc;
+        display: flex;
+        img {
+            max-width: 25px;
+            height: 25px;
+        }
+    }
+    input {
+        font-size: 16px;
+        font-weight: 400;
+        border: none;
+        outline: none;
+        height: 32px;
+        padding: 0 10px;
+    }
+    input::placeholder {
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .error-text-wrap {
+        width: 100%;
+        margin: 0;
+        padding: 3px;
+        font-size: 11px;
+        text-align: left;
+        color: rgb(253, 10, 10);
+    }
+}

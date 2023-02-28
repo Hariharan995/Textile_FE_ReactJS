@@ -1,0 +1,88 @@
+.login-form {
+    display: flex;
+    flex-direction: column;
+
+    .sign-in-content {
+        font-size: 24px;
+        font-weight: 600;
+        color: #555555;
+        margin: 15px 0px 5px 0px;
+    }
+
+    .title {
+        font-size: 24px;
+        font-weight: 600;
+        color: #555555;
+        text-align: center;
+        margin: 15px 0px 5px 0px;
+
+        span {
+            font-size: 15px;
+            font-weight: 100;
+        }
+    }
+
+    .access-acc-content {
+        font-size: 18px;
+        font-weight: 400;
+        color: #555555;
+    }
+
+    .blue-content {
+        color: #2874f0;
+        font-weight: 500;
+        cursor: pointer;
+    }
+
+    .login-form-wrap {
+        text-align: center;
+        width: 80%;
+        margin: 0 auto;
+
+        .form-body {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+
+            .input-label-wrapper {
+                width: 80%;
+
+                .input-img-wrapper {
+                    width: 100%;
+                }
+
+                input {
+                    width: 100%;
+                }
+            }
+        }
+
+        .conditions-content {
+            font-size: 14px;
+            font-weight: 400;
+            text-align: center;
+        }
+
+        .form-btn-wrap {
+            width: 300px;
+            margin: auto;
+
+            .btn-color-wrap {
+                height: 40px;
+                font-size: 16px;
+            }
+        }
+    }
+
+    .footer {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+
+        span {
+            font-size: 15px;
+            font-weight: 800;
+            padding-left: 5px;
+        }
+    }
+}

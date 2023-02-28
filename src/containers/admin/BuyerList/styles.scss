@@ -1,0 +1,43 @@
+.main {
+    margin: 10px 20px;
+
+    .filter {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+        gap: 15px;
+
+        .react-datepicker-wrapper {
+            width: 150px;
+        }
+
+        .DatePicker {
+            border: 1px solid #dfdfdf;
+            padding: 11.5px 5px;
+            max-width: 140px;
+        }
+
+        input[type=date] {
+            border: 1px solid #dfdfdf;
+            padding: 0px 20px;
+        }
+    }
+
+    table {
+        margin: 0 auto;
+        text-align: center;
+
+        tr {
+            td {
+                padding: 10px;
+            }
+        }
+    }
+
+    .saleTable {
+        padding: 20px 20px 10px 20px;
+        box-shadow: 2px 4px 20px rgb(255 0 0 / 51%);
+        width: 100%;
+        overflow: auto;
+    }
+}

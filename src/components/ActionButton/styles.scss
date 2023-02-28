@@ -1,0 +1,41 @@
+.btn-color-wrap {
+    background: #4caf54c2;
+    font-family: "Lato";
+    border: none;
+    height: 30px;
+    width: 70px;
+    padding: 0px 15px;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.15);
+    font-family: "Roboto";
+    font-size: 15px;
+    font-weight: 500;
+    transition: all .25s ease;
+    &:hover{
+        transform: translateY(-2px);
+        box-shadow: 2px 4px 18px 2px rgba(170, 204, 154, 0.3);
+    }
+}
+
+.btn-outline-wrap {
+    background: #ff00008a;
+    font-family: "Lato";
+    outline: transparent;
+    border: none ;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.15);
+    height: 30px;
+    width: 70px;
+    padding: 0px 15px;
+    color: #ffffff;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+    transition: all .25s ease;
+    &:hover{
+        transform: translateY(-2px);
+        box-shadow: 2px 4px 12px 2px rgb(255 99 43 / 30%);
+    }
+}

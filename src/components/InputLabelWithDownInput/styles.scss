@@ -1,0 +1,99 @@
+.input-label-input-warehouse {
+    width: 100%;
+    padding: 5px 15px;
+    line-height: 2;
+    .text-label {
+        margin: 0;
+        font-size: 14px;
+        color: #818181;
+        display: flex;
+        align-items: center;
+    }
+    .tooltip-icon {
+        color: grey;
+        width: 15px;
+        padding: 0 8px;
+    }
+    .text-label-content {
+        padding: 5px;
+        border-radius: 2px;
+        border: 1px solid #e8e9ec;
+        font-family: "Lato";
+        width: 100%;
+        height: 36px;
+        border-radius: 4px;
+        box-sizing: border-box;
+        &:focus {
+            background-color: #fff7f0;
+            border: 1px solid #ffddbc;
+            outline: none;
+            .hint-text {
+                display: none;
+            }
+        }
+        &:disabled {
+            cursor: not-allowed;
+            background: #e5e5e5;
+        }
+    }
+    .text-area-content {
+        resize: none;
+        padding: 10px 30px 5px 10px;
+        border-radius: 2px;
+        border: 1px solid #e8e9ec;
+        font-family: "Lato";
+        width: 100%;
+        height: 36px;
+        border-radius: 4px;
+        box-sizing: border-box;
+        height: 126px;
+        outline: none;
+    }
+    .error-text {
+        width: 100%;
+        margin: 0;
+
+        font-size: 11px;
+        text-align: right;
+        color: red;
+        font-family: "Lato";
+    }
+    .hint-text {
+        width: 100%;
+        margin: 0;
+        font-size: 11px;
+        text-align: right;
+        color: #069800;
+        font-family: "Lato";
+    }
+    .input-with-verified-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        border: 1px solid #069800;
+        padding: 0; 
+        height: auto;   ////////////
+    }
+
+    .input-with-verified-icon-disabled {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        border: 1px solid #eee;
+        padding: 0 5px 0 0;
+    }
+    .verified-icon {
+        color: #b8b8b8;
+        right: 0.65vw;
+        width: 14px;
+        top: 12px;
+        cursor: pointer;
+    }
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+}

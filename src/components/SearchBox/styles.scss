@@ -1,0 +1,26 @@
+.search-box {
+    max-width: 150px;
+    display: flex;
+    height: 27px;
+    align-items: center;
+    padding: 5px 10px;
+    border: 1px solid #dfdfdf;
+    &:has(input:focus){
+        background-color: #d5e8f7;
+        svg{
+            filter: invert(69%) sepia(92%) saturate(2551%) hue-rotate(336deg) brightness(104%) contrast(101%);
+        }
+    }
+    
+    svg{
+        filter: invert(0.6);
+    }
+
+    input {
+        max-width: 120px;
+        border: unset;
+        padding: 5px;
+        background: transparent;
+        outline: unset;
+    }
+}

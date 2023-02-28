@@ -1,0 +1,18 @@
+.layout {
+    display: flex;
+    width: 100%;
+    .sidemenu-wrap {
+        width: 10%;
+    }
+    .layout-header-wrapper {
+        width: 100%;
+        overflow: auto;
+        height: calc(100vh - 5px);
+    }
+}
+@media (max-width: 590px) {
+    .layout{
+        display: grid;
+        grid-template-columns: 50px 1fr;
+    }
+}

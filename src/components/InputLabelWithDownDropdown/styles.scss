@@ -1,0 +1,73 @@
+.input-with-dropdown-down {
+  line-height: 2;
+  width: 100%;
+  padding: 5px 15px;
+
+  .txt-label {
+    font-size: 14px;
+    font-family: "Lato";
+    margin-right: 15px;
+    color: #898989;
+    width: 50%;
+    text-align: left;
+  }
+
+  .input-field-box:disabled {
+    pointer-events: auto !important;
+    cursor: not-allowed !important;
+    background-color: #8d8d8d63;
+  }
+
+  .input-field-box {
+    padding: 6px;
+    border-radius: 2px;
+    border: 1px solid #8d8d8da8;
+    font-family: "Lato";
+    width: 100%;
+    font-size: 15px;
+  }
+
+  .input-field-box-error {
+    padding: 6px;
+    border-radius: 2px;
+    border: 1px solid red;
+    font-family: "Lato";
+    width: 100%;
+    font-size: 15px;
+  }
+
+  .input-and-error {
+    width: 100%;
+  }
+
+  .input-field-box:focus,
+  .input-field-box-error:focus {
+    outline: none !important;
+    border: 1px solid #f44336;
+  }
+
+  .input-field-box::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    font-family: "Lato";
+    font-size: 12px;
+  }
+
+  .error-text {
+    width: 100%;
+    margin: 0;
+    padding: 3px;
+    font-size: 11px;
+    text-align: left;
+    color: red;
+    font-family: "Lato";
+  }
+  .hint-text {
+    width: 100%;
+    margin: 0;
+    padding: 3px;
+    font-size: 11px;
+    color: #a2a2a2;
+    text-align: left;
+    font-family: "Lato";
+  }
+}
